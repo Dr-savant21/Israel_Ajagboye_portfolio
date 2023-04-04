@@ -1,6 +1,7 @@
-html{
+html {
     overflow-x: hidden;
 }
+
 body {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -109,7 +110,7 @@ body {
 }
 
 header {
-    background:  url(../images/nature.jpg) fixed;
+    background: url(../images/nature.jpg) fixed;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -166,13 +167,13 @@ header .arrow-down .animated {
     }
 
     100% {
-        opacity: 1; 
+        opacity: 1;
         top: 10px;
     }
 }
 
-@media (max-width: 500px){
-    header .container-header{
+@media (max-width: 500px) {
+    header .container-header {
         left: 55%;
         width: 95%;
         word-wrap: break-word;
@@ -1144,7 +1145,7 @@ footer .social-icon .icon:hover a {
     }
 }
 
-@media (max-width: 356px) {
+@media (max-width: 360px) {
 
     .scrollspy-example .contact .head h1,
     .scrollspy-example .client .head h1 {
@@ -1154,11 +1155,13 @@ footer .social-icon .icon:hover a {
     .scrollspy-example .services .head h1 {
         font-size: 4.5rem;
     }
+
     .client .card .card-inner .person {
         display: block;
     }
 }
-@media (max-width: 334px){
+
+@media (max-width: 334px) {
     .scrollspy-example .about .head h1 {
         font-size: 3.7rem;
     }
@@ -1166,27 +1169,31 @@ footer .social-icon .icon:hover a {
     .scrollspy-example .services .head h1 {
         font-size: 4rem;
     }
-    
+
     .scrollspy-example .contact .head h1,
     .scrollspy-example .client .head h1,
-    .scrollspy-example .portfolio .my-work h1{
+    .scrollspy-example .portfolio .my-work h1 {
         font-size: 3rem;
     }
+
     .scrollspy-example section .head h3,
     .scrollspy-example section .head #bio,
     .scrollspy-example section .head .edu {
         font-size: 1.5rem;
     }
 }
-@media (max-width: 320px){
+
+@media (max-width: 320px) {
     .scrollspy-example .about .head h1 {
         font-size: 3rem;
     }
+
     .scrollspy-example .services .head h1 {
         font-size: 3.5rem;
     }
+
     .scrollspy-example .client .head h1,
-    .scrollspy-example .contact .head h1{
+    .scrollspy-example .contact .head h1 {
         font-size: 2.5rem;
     }
 }
